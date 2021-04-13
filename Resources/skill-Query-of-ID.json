@@ -1,0 +1,29 @@
+{
+  "name": "Query of ID",
+  "type": "search",
+  "status": "Available",
+  "language": "en",
+  "skill_id": "4fe5f253-68a5-4164-8428-891c32df8a16",
+  "description": "",
+  "search_settings": {
+    "messages": {
+      "error": "I might have information related to your query to share, but am unable to connect to my knowledge base at the moment.",
+      "success": "I searched my knowledge base and found this information which might be useful:",
+      "no_result": "I searched my knowledge base but did not find anything related to your query."
+    },
+    "discovery": {
+      "url": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/5fb0d2ec-4405-488f-833b-2d4e08395c9f",
+      "passages": false,
+      "highlight": true,
+      "instance_id": "crn:v1:bluemix:public:discovery:eu-gb:a/1ee33c9987f44ed18360a2b75339f315:5fb0d2ec-4405-488f-833b-2d4e08395c9f::",
+      "collection_id": "50c9e56a-381e-4b23-844a-465d35bb7d8d",
+      "results_count": 10,
+      "environment_id": "e31fabd8-0f70-402c-bd9d-f6da8d6a1336"
+    },
+    "schema_mapping": {
+      "url": "metadata.source.url",
+      "body": "text",
+      "title": "extracted_metadata.title"
+    }
+  }
+}
